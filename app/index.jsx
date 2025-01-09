@@ -5,11 +5,7 @@ import { Link } from "expo-router";
 export default function Index() {
   return (
     <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
+      className="flex-1 items-center justify-center bg-blue-800"
     >
       <Text>Aura!</Text>
       <StatusBar style="auto"/>
